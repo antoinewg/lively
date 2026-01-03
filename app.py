@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.write("Hello world")
+st.write(f"Hello world {st.secrets['DB_USERNAME']}")
